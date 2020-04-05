@@ -1,0 +1,18 @@
+.navbar-brand {
+    font-size: 20pt;
+}
+
+.page-header {
+    color: white;
+    font-size: 25pt;
+}
+
+.col-md-3 {
+    width: auto;
+    height: auto;
+}
+.col-md-9 {
+    background:  slategray;
+    border: 1px solid black;
+    color: white;
+}
