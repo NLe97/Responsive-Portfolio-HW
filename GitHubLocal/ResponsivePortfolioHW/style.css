@@ -1,0 +1,34 @@
+.navbar-brand {
+    font-size: 20pt;
+}
+
+.page-header {
+    color: white;
+    font-size: 25pt;
+}
+
+
+.col-md-3 {
+    width: auto;
+    height: auto;
+}
+.col-md-9 {
+    background:  slategray;
+    border: 1px solid black;
+    color: white;
+}
+
+.footer {
+    padding: 10px;
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: slategray;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer h2 {
+    font-size: 20px;
+}

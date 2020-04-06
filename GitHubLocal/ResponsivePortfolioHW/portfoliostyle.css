@@ -1,0 +1,41 @@
+.navbar-brand {
+    font-size: 20pt;
+}
+
+.portfolio-header {
+    color: white;
+    font-size:  25pt;
+}
+
+.container {
+    font-weight: bold;
+}
+
+.footer {
+    padding: 10px;
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: slategray;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+@media screen and (min-width:600px) {
+    .footer {
+        padding: 10px;
+        clear: both;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: slategray;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+}
