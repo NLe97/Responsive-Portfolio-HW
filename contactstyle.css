@@ -4,6 +4,10 @@
 
 .container {
      font-size: 15pt;
+     padding-right: 30px;
+     padding-left: 30px;
+     padding-top: 30px;
+
 }
 
 .contact-header {

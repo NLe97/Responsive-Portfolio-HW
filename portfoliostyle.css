@@ -9,6 +9,7 @@
 
 .container {
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .footer {
@@ -17,25 +18,26 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: slategray;
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    width: 100%;
+    min-width: 100%;
 }
+
 
 .footer h2 {
     font-size: 20px;
 }
 
-@media screen and (min-width:600px) {
-    .footer {
-        padding: 10px;
-        clear: both;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        background-color: slategray;
-        text-align: center;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
+@media screen and (min-width:500px) {
+    footer {
+        position: center; 
+        padding: 5px;
+        min-width: 100%;
     }
-    
+}
+
+@media screen and (min-width:500px) {
+    .container {
+        margin-bottom: 100px;
+    }
 }
